@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
     <title>Lista de la compra</title>
@@ -23,27 +23,22 @@
             </nav>
         </header>
         <main>
-            <article>
-                <div class="añadir">
-                    <div class="icon"><img
-                            src="css/kisspng-plus-and-minus-signs-computer-icons-negative-numbe-sign-minus-calculator-function-svg-png-icon-free-d-5c5f739d159305.5884111515497593890884.png"
-                            alt="Simbolo resta para modificar lista"></div>
-                    <div class="comprados">2/3 comprados</div>
-                </div>
-            </article>
-            <article>
-                <div class="modificar-articulo">
-                    <h2>Editar artículo</h2>
-
-                    <form action="POST" class="formulario-articulo">
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" class="nombre" name="fname" value="" placeholder="producto">
-                        <label for="precio">Precio:</label>
-                        <input type="number" class="precio" name="precio" value="">€
-                        <input type="submit" value="Modificar">
-                    </form>
-                </div>
-            </article>
+            <div class="añadir">
+                <div class="icon"><img
+                        src="css/kisspng-plus-and-minus-signs-computer-icons-negative-numbe-sign-minus-calculator-function-svg-png-icon-free-d-5c5f739d159305.5884111515497593890884.png"
+                        alt="Simbolo resta para modificar lista"></div>
+                <div class="comprados">2/3 comprados</div>
+            </div>
+            <div class="modificar-articulo">
+                <h2>Editar artículo</h2>
+                <form action="POST" class="formulario-articulo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="fname" value="" placeholder="producto">
+                    <label for="precio">Precio:</label>
+                    <input type="number" id="precio" name="precio" value="">€
+                    <input type="submit" value="Modificar">
+                </form>
+            </div>
         </main>
     </div>
 </body>
