@@ -33,6 +33,11 @@ ul, li {
   padding: 0;
   list-style-type: none;
 }
+li {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
 
 nav ul {
   display: flex;
@@ -112,12 +117,12 @@ a {
   justify-content: flex-end;
   align-items: center;
   height: 50px;
-  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgb(160, 159, 159);
+  margin: 0 15px;
 }
 
 .precio-total {
   margin: 0;
-  padding: 0 15px;
   font-size: 25px;
   align-items: center;
 }
@@ -155,6 +160,10 @@ input[type="checkbox"] {
 
 .fa-times {
   font-size: 25px;
+  margin-left: 35px;
+}
+.productos p{
+    margin-left: 20px;
 }
 
 h2 {
