@@ -7,6 +7,7 @@
   <meta name="description" content="Free Web tutorials">
   <meta name="keywords" content="HTML,CSS,XML,JavaScript">
   <meta name="author" content="John Doe">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/estilos.css">
 </head>
@@ -22,7 +23,7 @@
       </nav>
     </header>
     <main>
-      <section class="añadir">
+      <section class="add">
         <div class="icon"><i class="fas fa-plus-circle"></i></div>
         <div class="comprados">2/3 comprados</div>
       </section>
@@ -30,7 +31,7 @@
         <div class="productos">
           <div class="check-productos">
             <input type="checkbox" class="checkbox">
-            <p class="nombre-producto"><strike>Pan</strike></p>
+            <p class="nombre-producto producto-comprado">Pan</p>
           </div>
           <p class="precio-producto">0.75€</p>
           <div>
@@ -49,7 +50,7 @@
         </div>
         <div class="productos">
           <div class="check-productos"><input type="checkbox" class="checkbox">
-            <p class="nombre-producto"><strike>Leche</strike></p>
+            <p class="nombre-producto producto-comprado">Leche</p>
           </div>
           <p class="precio-producto">1.20€</p>
           <div>
@@ -58,7 +59,6 @@
         </div>
       </section>
       <div class="total-compra">
-        <hr>
         <p class="precio-total">
           1.95€
         </p>
