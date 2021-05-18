@@ -79,6 +79,11 @@ a:hover {
   min-height: calc(100vh - 100px - 40px - 50px)
 }
 
+.modificar-articulo {
+  min-height: calc(100vh - 100px - 40px);
+  padding: 0 15px;
+}
+
 .total-compra {
   height: 50px;
 }
@@ -89,4 +94,16 @@ a:hover {
   padding: 0 15px;
   justify-content: flex-end;
   align-items: center;
+}
+
+.button-submit {
+  background-color: #5e81d1;
+  color: white;
+  border: none;
+}
+
+input {
+  padding: 7px;
+  margin-top: 7px;
+  border: none;
 }
