@@ -120,6 +120,9 @@ a {
   border-top: 1px solid rgb(160, 159, 159);
   margin: 0 15px;
 }
+.cabecera a:hover{
+  text-decoration: underline;
+}
 
 .precio-total {
   margin: 0;
