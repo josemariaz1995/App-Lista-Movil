@@ -39,10 +39,10 @@ a {
 }
 
 a:hover {
-  font-weight: 700;
+  text-decoration: underline;
 }
 
-.añadir {
+.add {
   background-color: #f87500;
   display: flex;
   justify-content: space-between;
@@ -85,14 +85,16 @@ a:hover {
 }
 
 .total-compra {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   height: 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .precio-total {
   margin: 0;
-  display: flex;
   padding: 0 15px;
-  justify-content: flex-end;
   align-items: center;
 }
 
@@ -106,4 +108,12 @@ input {
   padding: 7px;
   margin-top: 7px;
   border: none;
+}
+
+.selected {
+  font-weight: 700;
+}
+
+.producto-comprado {
+  text-decoration: line-through;
 }
