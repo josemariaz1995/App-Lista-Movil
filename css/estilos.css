@@ -5,6 +5,7 @@
 body {
   margin: 0;
   color: #333;
+  background-color: #fe8d27;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
@@ -22,10 +23,24 @@ h1 {
   font-size: 22px;
   margin: 0;
 }
-ul,li{
+
+h1, h2 {
+  font-weight: 400;
+}
+
+ul, li {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  width: 30%;
 }
 
 main {
@@ -43,17 +58,17 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 .add {
   background-color: #f87500;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 40px;
+  height: 105px;
   padding: 0 15px;
+}
+
+.add p {
+  font-size: 30px;
 }
 
 .cabecera {
@@ -69,6 +84,10 @@ a:hover {
   padding-right: 5px;
 }
 
+.nombre-producto, .precio-producto {
+  font-size: 20px;
+}
+
 .productos:hover {
   background-color: #c16b1e;
   color: white;
@@ -81,7 +100,6 @@ a:hover {
 
 .lista {
   padding: 0 15px;
-  min-height: calc(100vh - 100px - 40px - 50px)
 }
 
 .modificar-articulo {
@@ -100,6 +118,7 @@ a:hover {
 .precio-total {
   margin: 0;
   padding: 0 15px;
+  font-size: 25px;
   align-items: center;
 }
 
@@ -110,9 +129,11 @@ a:hover {
 }
 
 input {
-  padding: 7px;
-  margin-top: 7px;
+  padding: 15px;
+  margin: 7px 0;
+  height: 60px;
   border: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 .selected {
@@ -121,4 +142,29 @@ input {
 
 .producto-comprado {
   text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+  height: 30px;
+  width: 30px;
+}
+
+.fa-plus-circle, .fa-minus-circle {
+  font-size: 45px;
+}
+
+.fa-times {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+form label {
+  font-size: 20px;
+}
+
+input[type="submit"] {
+  font-size: 20px;
 }
