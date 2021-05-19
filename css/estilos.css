@@ -33,10 +33,11 @@ ul, li {
   padding: 0;
   list-style-type: none;
 }
+
 li {
-    display: flex;
-    justify-items: center;
-    align-items: center;
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
 
 nav ul {
@@ -120,7 +121,8 @@ a {
   border-top: 1px solid rgb(160, 159, 159);
   margin: 0 15px;
 }
-.cabecera a:hover{
+
+.cabecera a:hover {
   text-decoration: underline;
 }
 
@@ -154,6 +156,7 @@ input {
 
 input[type="checkbox"] {
   height: 30px;
+  cursor: pointer;
   width: 30px;
 }
 
@@ -165,8 +168,9 @@ input[type="checkbox"] {
   font-size: 25px;
   margin-left: 35px;
 }
-.productos p{
-    margin-left: 20px;
+
+.productos p {
+  margin-left: 20px;
 }
 
 h2 {
@@ -179,4 +183,8 @@ form label {
 
 input[type="submit"] {
   font-size: 20px;
+}
+
+i {
+  cursor: pointer;
 }
